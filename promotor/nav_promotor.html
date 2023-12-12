@@ -1,0 +1,46 @@
+<nav class="navegador">
+    <div class="logo">
+        <img src="../img/secretariasalud.png" alt="logosecretaria">
+    </div>
+    <div class="links">
+        <a href="index.php">Inicio</a>
+        <a href="#">Ver Pacientes</a>
+        <a href="#">Ver Promotores</a>
+        <a href="../cerrarsesion.php" class="cerrar">Cerrar Sesion</a>
+    </div>
+</nav>
+<style>
+    body {
+    background-color: #f5fafc;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .navegador {
+    background-color: #3fc1e9;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navegador img {
+    width: 250px;
+    height: auto;
+}
+
+.links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.links a:hover {
+    color: white;
+}
+a.cerrar:hover {
+    color: #ff0000;
+}
+</style>
